@@ -1,0 +1,89 @@
+:root {
+  --global-color1: #325069;
+  --global-color2: azure;
+  --global-color3: rgb(40, 40, 40);
+  --global-margin: 20px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--global-color2);
+}
+
+section {
+  /*  border: 3px solid black; */
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: var(--global-margin);
+}
+
+section header {
+  font-size: 40px;
+  font-weight: normal;
+  text-align: left;
+  margin-left: var(--global-margin);
+}
+
+section hr {
+  margin-left: var(--global-margin);
+  margin-right: var(--global-margin);
+  margin-top: 0px;
+}
+
+section table {
+  /*  border: 1px solid black; */
+  margin-left: var(--global-margin);
+  margin-right: var(--global-margin);
+  line-height: 1.5;
+}
+
+section table td {
+  /*border: 1px solid black; */
+  height: 50px;
+  /*  padding-left: 10px; */
+  text-align: left;
+}
+
+strong {
+  font-size: larger;
+}
+
+#header1 {
+  font-size: 60px;
+  margin-left: var(--global-margin);
+  color: var(--global-color1);
+}
+#header2 {
+  font-size: 40px;
+  margin-left: var(--global-margin);
+  color: var(--global-color1);
+}
+
+.left {
+  background-color: var(--global-color1);
+  width: 350px;
+  float: left;
+  color: var(--global-color2);
+}
+
+.left a {
+  color: var(--global-color2);
+}
+
+a:hover {
+  color: red;
+}
+
+.right {
+  background-color: var(--global-color2);
+  color: var(--global-color3);
+  margin-left: 350px;
+}
+
+.ikony {
+  width: 90%;
+}
+
+.underline {
+  text-decoration: underline;
+}
