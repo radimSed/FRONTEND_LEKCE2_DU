@@ -78,6 +78,7 @@ a:hover {
   background-color: var(--global-color2);
   color: var(--global-color3);
   margin-left: 350px;
+  min-width: 500px;
 }
 
 .ikony {
